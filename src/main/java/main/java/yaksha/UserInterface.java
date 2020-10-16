@@ -29,17 +29,16 @@ public class UserInterface{
 		fd.setCostPerUnit(sc.nextDouble());
 		System.out.println("Enter the quantity");
 		fd.setQuantity(sc.nextInt());
-		o.addToCart(fd);
-		
+		/*Write code here . Call method to add item in list*/
 		}
 		
 		
 		System.out.println("Enter the bank name to avail offer[HDFC/SBI/ICICI/CUB/OTHERS]");
 		bank=sc.next();
-		o.findDiscount(bank);
+		/*Write code here . this method will return discount percentage according to respected bank.*/
 		
 		
-		System.out.println("Calculated Bill Amount:"+o.calculateTotalBill());
+		/*Write code here . calculateTotalBill() this method will return bill by finding .*/
 		
 		
 		
